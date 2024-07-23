@@ -28,3 +28,4 @@ runs:
       shell: bash
     - name: Print steps context
       run: echo "steps=${{ toJson(steps) }}"
+      shell: bash
